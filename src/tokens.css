@@ -1,0 +1,21 @@
+:root {
+  --font-heading: "Newsreader", Georgia, serif;
+  --font-body: "Instrument Sans", Arial, sans-serif;
+  --color-primary: #073b32;
+  --color-primary-deep: #062722;
+  --color-bg: #f7f8f5;
+  --color-surface: #ffffff;
+  --color-text: #10211e;
+  --color-muted: #53645e;
+  --color-line: #d9e1de;
+  --color-mist: #edf3f1;
+  --color-accent: #ff5b45;
+  --color-blossom: #e9b8b2;
+  --color-cryo: #82cbc1;
+  --color-lime: #b7ff69;
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --shadow-menu: 0 18px 50px rgba(6, 39, 34, 0.12);
+  --shell: 1488px;
+  --gutter: clamp(20px, 3.5vw, 56px);
+}
