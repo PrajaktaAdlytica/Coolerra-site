@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowRight, Check, Eye, EyeOff, LockKeyhole, Mail, ShieldCheck } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Check, Eye, EyeOff, LockKeyhole, Mail, ShieldCheck } from "lucide-react";
 import { ButtonLink, ClaimTag, SectionIntro, SiteFooter, SiteHeader } from "../components/SiteShell.jsx";
 import { MonitorInterface, OptimizeInterface, PredictInterface } from "../components/ProductInterfaces.jsx";
 import { productData, resourceItems, solutionData } from "../data.js";
@@ -146,7 +146,74 @@ export function CompanyPage() {
         <div><p className="eyebrow">Why Coolerra</p><h2>Dense compute changes the role of cooling.</h2></div>
         <div><p>Cooling is no longer a background facility system. It increasingly shapes usable capacity, workload planning, operating risk, and infrastructure strategy.</p><p>Coolerra exists to make that relationship legible without hiding uncertainty or operator responsibility behind an AI claim.</p></div>
       </section>
+      <section className="company-update section-shell" aria-labelledby="company-update-title">
+        <p className="eyebrow">Portfolio update</p>
+        <div>
+          <h2 id="company-update-title">Coolerra joins the TipHub portfolio.</h2>
+          <p>TipHub announced a $800K allocation to support Coolerra’s work across AI infrastructure for data centres.</p>
+        </div>
+        <a href="/news/tiphub-allocation">Read the announcement <ArrowRight size={16} aria-hidden="true" /></a>
+      </section>
       <section className="company-values section-shell section-shell--dark">{["Evidence before claims", "Operator authority", "Technical legibility", "European product discipline"].map((item, index) => <article key={item}><span>0{index + 1}</span><h3>{item}</h3></article>)}</section>
+    </PageShell>
+  );
+}
+
+export function TipHubAnnouncementPage() {
+  const facts = [
+    ["Company", "Coolerra"],
+    ["Sector", "AI infrastructure for data centres"],
+    ["TipHub-announced allocation", "$800K"],
+    ["Stage", "Early stage"],
+    ["Scope", "Global"],
+    ["Portfolio", "TipHub"],
+  ];
+
+  return (
+    <PageShell>
+      <main className="news-announcement">
+        <header className="news-announcement__hero section-shell">
+          <div className="news-announcement__headline">
+            <p className="eyebrow">Portfolio announcement</p>
+            <h1>TipHub announces a <em>$800K allocation</em> to Coolerra.</h1>
+          </div>
+          <aside className="news-announcement__summary" aria-label="Announcement summary">
+            <span>Announced allocation</span>
+            <strong>$800K</strong>
+            <p>AI infrastructure for data centres</p>
+          </aside>
+        </header>
+
+        <section className="news-announcement__body section-shell">
+          <div className="news-announcement__intro">
+            <p>Coolerra is joining the TipHub portfolio following a $800K TipHub-announced allocation. The partnership supports the company’s work across AI infrastructure for data centres.</p>
+          </div>
+          <div className="news-announcement__copy">
+            <p>We are building Coolerra to address an important operating problem within AI infrastructure for data centres. TipHub’s early-stage, global perspective aligns with our ambition to turn a focused insight into durable infrastructure.</p>
+            <p>The relationship extends beyond capital to company-building support across product, market development, talent, and future growth.</p>
+          </div>
+        </section>
+
+        <section className="news-announcement__facts section-shell" aria-labelledby="announcement-facts-title">
+          <div className="news-announcement__facts-heading">
+            <p className="eyebrow">Announcement facts</p>
+            <h2 id="announcement-facts-title">The allocation, in context.</h2>
+          </div>
+          <dl>
+            {facts.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}
+          </dl>
+        </section>
+
+        <section className="news-announcement__links section-shell" aria-label="Announcement links">
+          <a href="https://tiphub-prototype-review.vercel.app/companies/coolerra" target="_blank" rel="noreferrer"><span>Official source</span><strong>Visit TipHub announcement</strong><ArrowUpRight aria-hidden="true" /></a>
+          <a href="https://www.coolerra.com"><span>Company</span><strong>Visit Coolerra website</strong><ArrowUpRight aria-hidden="true" /></a>
+        </section>
+
+        <aside className="news-announcement__disclosure section-shell" aria-label="Allocation disclosure">
+          <span>Disclosure</span>
+          <p>The allocation displayed is information supplied and announced by TipHub. It does not independently represent the company’s total financing and may be updated if an official company disclosure differs.</p>
+        </aside>
+      </main>
     </PageShell>
   );
 }

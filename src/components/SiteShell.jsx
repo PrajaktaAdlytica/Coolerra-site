@@ -152,6 +152,7 @@ export function SiteFooter() {
           <FooterGroup title="Solutions" links={solutionLinks} />
           <FooterGroup title="Company" links={[
             { label: "Company", href: "/company" },
+            { label: "News", href: "/news/tiphub-allocation" },
             { label: "Resources", href: "/resources" },
             { label: "Contact", href: "/contact" },
             { label: "Security", href: "/security" },

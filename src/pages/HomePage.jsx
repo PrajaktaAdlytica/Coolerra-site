@@ -380,9 +380,25 @@ export function HomePage() {
           <div className="claim-boundary reveal"><ShieldCheck size={20} /><p>Product concept presented without fabricated customers, savings, certifications, or deployment claims.</p><ClaimTag>Claim-safe</ClaimTag></div>
         </section>
 
+        <section id="portfolio-update" className="portfolio-announcement section-shell" aria-labelledby="portfolio-announcement-title">
+          <div className="portfolio-announcement__rail reveal">
+            <p className="eyebrow">11 / Portfolio announcement</p>
+            <div className="portfolio-announcement__amount"><span>TipHub-announced allocation</span><strong>$800K</strong></div>
+            <span className="portfolio-announcement__scope">Early stage / Global</span>
+          </div>
+          <div className="portfolio-announcement__story reveal">
+            <h2 id="portfolio-announcement-title">TipHub announces a $800K allocation to Coolerra.</h2>
+            <p>Coolerra is joining the TipHub portfolio as it builds thermal intelligence for AI infrastructure and data-centre cooling.</p>
+            <div className="portfolio-announcement__actions">
+              <a className="portfolio-announcement__primary" href="/news/tiphub-allocation">Read the announcement <ArrowRight size={16} aria-hidden="true" /></a>
+              <a className="portfolio-announcement__secondary" href="https://tiphub-prototype-review.vercel.app/companies/coolerra" target="_blank" rel="noreferrer">Visit TipHub <ArrowRight size={14} aria-hidden="true" /></a>
+            </div>
+          </div>
+        </section>
+
         <section className="operator-voices section-shell" aria-labelledby="operator-voices-title">
           <div className="operator-voices__heading">
-            <p className="eyebrow">11 / Operator perspectives</p>
+            <p className="eyebrow">12 / Operator perspectives</p>
             <h2 id="operator-voices-title">What thermal intelligence must make possible.</h2>
             <p>Illustrative launch copy for positioning only. Replace with approved customer testimony after validation.</p>
           </div>
@@ -399,7 +415,7 @@ export function HomePage() {
 
         <section className="conversion section-shell section-shell--dark">
           <div className="conversion-copy reveal">
-            <p className="eyebrow">12 / Start with your thermal reality</p>
+            <p className="eyebrow">13 / Start with your thermal reality</p>
             <h2>Bring us one room,<br />pod, or cooling loop.</h2>
             <p>Start with a technical discovery session and leave with a scoped data and pilot-readiness plan.</p>
             <div><ButtonLink href="/demo" light>Request a technical conversation</ButtonLink><ButtonLink href="/platform" secondary light>Explore the product</ButtonLink></div>
