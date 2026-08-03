@@ -383,11 +383,11 @@ export function HomePage() {
         <section id="portfolio-update" className="portfolio-announcement section-shell" aria-labelledby="portfolio-announcement-title">
           <div className="portfolio-announcement__rail reveal">
             <p className="eyebrow">11 / Portfolio announcement</p>
-            <div className="portfolio-announcement__amount"><span>TipHub-announced allocation</span><strong>$800K</strong></div>
+            <div className="portfolio-announcement__amount"><span>TipHub-announced allocation</span><strong>$550K</strong></div>
             <span className="portfolio-announcement__scope">Early stage / Global</span>
           </div>
           <div className="portfolio-announcement__story reveal">
-            <h2 id="portfolio-announcement-title">TipHub announces a $800K allocation to Coolerra.</h2>
+            <h2 id="portfolio-announcement-title">TipHub announces a $550K allocation to Coolerra.</h2>
             <p>Coolerra is joining the TipHub portfolio as it builds thermal intelligence for AI infrastructure and data-centre cooling.</p>
             <div className="portfolio-announcement__actions">
               <a className="portfolio-announcement__primary" href="/news/tiphub-allocation">Read the announcement <ArrowRight size={16} aria-hidden="true" /></a>

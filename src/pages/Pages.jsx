@@ -150,7 +150,7 @@ export function CompanyPage() {
         <p className="eyebrow">Portfolio update</p>
         <div>
           <h2 id="company-update-title">Coolerra joins the TipHub portfolio.</h2>
-          <p>TipHub announced a $800K allocation to support Coolerra’s work across AI infrastructure for data centres.</p>
+          <p>TipHub announced a $550K allocation to support Coolerra’s work across AI infrastructure for data centres.</p>
         </div>
         <a href="/news/tiphub-allocation">Read the announcement <ArrowRight size={16} aria-hidden="true" /></a>
       </section>
@@ -163,7 +163,7 @@ export function TipHubAnnouncementPage() {
   const facts = [
     ["Company", "Coolerra"],
     ["Sector", "AI infrastructure for data centres"],
-    ["TipHub-announced allocation", "$800K"],
+    ["TipHub-announced allocation", "$550K"],
     ["Stage", "Early stage"],
     ["Scope", "Global"],
     ["Portfolio", "TipHub"],
@@ -175,18 +175,18 @@ export function TipHubAnnouncementPage() {
         <header className="news-announcement__hero section-shell">
           <div className="news-announcement__headline">
             <p className="eyebrow">Portfolio announcement</p>
-            <h1>TipHub announces a <em>$800K allocation</em> to Coolerra.</h1>
+            <h1>TipHub announces a <em>$550K allocation</em> to Coolerra.</h1>
           </div>
           <aside className="news-announcement__summary" aria-label="Announcement summary">
             <span>Announced allocation</span>
-            <strong>$800K</strong>
+            <strong>$550K</strong>
             <p>AI infrastructure for data centres</p>
           </aside>
         </header>
 
         <section className="news-announcement__body section-shell">
           <div className="news-announcement__intro">
-            <p>Coolerra is joining the TipHub portfolio following a $800K TipHub-announced allocation. The partnership supports the company’s work across AI infrastructure for data centres.</p>
+            <p>Coolerra is joining the TipHub portfolio following a $550K TipHub-announced allocation. The partnership supports the company’s work across AI infrastructure for data centres.</p>
           </div>
           <div className="news-announcement__copy">
             <p>We are building Coolerra to address an important operating problem within AI infrastructure for data centres. TipHub’s early-stage, global perspective aligns with our ambition to turn a focused insight into durable infrastructure.</p>

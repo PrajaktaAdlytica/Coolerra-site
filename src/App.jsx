@@ -58,7 +58,7 @@ function updatePageMetadata(path) {
   const isAnnouncement = path === "/news/tiphub-allocation";
   const defaultDescription = "Coolerra thermal intelligence for GPU-heavy data centers, GPU cloud, colocation, and enterprise server rooms.";
   const description = isAnnouncement
-    ? "TipHub announces a $800K portfolio allocation to Coolerra, supporting its work across AI infrastructure for data centres."
+    ? "TipHub announces a $550K portfolio allocation to Coolerra, supporting its work across AI infrastructure for data centres."
     : defaultDescription;
   const title = getPageTitle(path);
 
