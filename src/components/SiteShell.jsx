@@ -108,6 +108,7 @@ export function SiteHeader({ dark = false }) {
         <a className="nav-link" href="/technology">Technology</a>
         <a className="nav-link" href="/pricing">Pricing</a>
         <a className="nav-link" href="/company">Company</a>
+        <a className="nav-link" href="/news/tiphub-allocation">News</a>
         <a className="nav-link nav-link--signin" href="/sign-in">Sign In</a>
         <a className="button button--small" href="/demo">Request a Demo</a>
       </nav>
