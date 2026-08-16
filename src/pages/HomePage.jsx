@@ -421,7 +421,7 @@ export function HomePage() {
             <div><ButtonLink href="/demo" light>Request a technical conversation</ButtonLink><ButtonLink href="/platform" secondary light>Explore the product</ButtonLink></div>
           </div>
           <img className="conversion-mark" src="/assets/brand/coolerra-mark-color.svg" alt="" aria-hidden="true" />
-          <p className="conversion-meta">Poland / European Union · For AI infrastructure operators</p>
+          <p className="conversion-meta">Esch-sur-Alzette, Luxembourg · For AI infrastructure operators</p>
         </section>
       </main>
       <SiteFooter />

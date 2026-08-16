@@ -173,7 +173,7 @@ export function SiteFooter() {
       <div className="footer-bottom shell">
         <div className="footer-office">
           <strong>Coolerra</strong>
-          <address>Warsaw, Poland<br />European Union</address>
+          <address>8936 Spring Way<br />Esch-sur-Alzette, ES 4015<br />Luxembourg<br />Phone: 584 191 204</address>
         </div>
         <div className="footer-socials" aria-label="Coolerra social media">
           <SocialLink href="https://www.linkedin.com/company/coolerra/" label="LinkedIn"><SocialIcon type="linkedin" /></SocialLink>
