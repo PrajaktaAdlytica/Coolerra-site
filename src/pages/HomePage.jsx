@@ -350,7 +350,7 @@ export function HomePage() {
               </div>
             ))}
           </div>
-          <div className="trust-note"><p>Security, deployment model, integrations, and compliance claims publish only after product confirmation.</p><ClaimTag dark>EU product company</ClaimTag></div>
+          <div className="trust-note"><p>Security, deployment model, integrations, and compliance claims publish only after product confirmation.</p><ClaimTag dark>USA product company</ClaimTag></div>
         </section>
 
         <section className="built-for section-shell">
@@ -407,7 +407,7 @@ export function HomePage() {
               <figure key={testimonial.name}>
                 <span>{String(index + 1).padStart(2, "0")}</span>
                 <blockquote>“{testimonial.quote}”</blockquote>
-                <figcaption><strong>{testimonial.name}</strong><small>{testimonial.role} · Poland</small></figcaption>
+                <figcaption><strong>{testimonial.name}</strong><small>{testimonial.role} · USA</small></figcaption>
               </figure>
             ))}
           </div>
@@ -421,7 +421,7 @@ export function HomePage() {
             <div><ButtonLink href="/demo" light>Request a technical conversation</ButtonLink><ButtonLink href="/platform" secondary light>Explore the product</ButtonLink></div>
           </div>
           <img className="conversion-mark" src="/assets/brand/coolerra-mark-color.svg" alt="" aria-hidden="true" />
-          <p className="conversion-meta">Esch-sur-Alzette, Luxembourg · For AI infrastructure operators</p>
+          <p className="conversion-meta">6835 Montgomery Rd, Cincinnati, OH 45236, Ohio, USA · For AI infrastructure operators</p>
         </section>
       </main>
       <SiteFooter />

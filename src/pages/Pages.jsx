@@ -141,7 +141,7 @@ export function PricingPage() {
 export function CompanyPage() {
   return (
     <PageShell>
-      <InteriorHero visual={visuals.phaseStudio} eyebrow="Company" title="Cooling intelligence for Europe's AI infrastructure era." body="Coolerra is a Poland/EU product startup focused on the thermal operating layer for GPU-heavy data centers." />
+      <InteriorHero visual={visuals.phaseStudio} eyebrow="Company" title="Cooling intelligence for the global AI infrastructure era." body="Coolerra is a USA-based product startup focused on the thermal operating layer for GPU-heavy data centers." />
       <section className="company-story section-shell">
         <div><p className="eyebrow">Why Coolerra</p><h2>Dense compute changes the role of cooling.</h2></div>
         <div><p>Cooling is no longer a background facility system. It increasingly shapes usable capacity, workload planning, operating risk, and infrastructure strategy.</p><p>Coolerra exists to make that relationship legible without hiding uncertainty or operator responsibility behind an AI claim.</p></div>
@@ -154,7 +154,7 @@ export function CompanyPage() {
         </div>
         <a href="/news/tiphub-allocation">Read the announcement <ArrowRight size={16} aria-hidden="true" /></a>
       </section>
-      <section className="company-values section-shell section-shell--dark">{["Evidence before claims", "Operator authority", "Technical legibility", "European product discipline"].map((item, index) => <article key={item}><span>0{index + 1}</span><h3>{item}</h3></article>)}</section>
+      <section className="company-values section-shell section-shell--dark">{["Evidence before claims", "Operator authority", "Technical legibility", "Global product discipline"].map((item, index) => <article key={item}><span>0{index + 1}</span><h3>{item}</h3></article>)}</section>
     </PageShell>
   );
 }
@@ -280,7 +280,7 @@ function Select({ label, values, ...props }) {
 export function ContactPage() {
   return (
     <PageShell>
-      <main className="contact-page section-shell"><div className="contact-page__visual" aria-hidden="true"><img src={visuals.boundary} alt="" /></div><div className="contact-page__copy"><p className="eyebrow">Contact Coolerra</p><h1>Start with the operating question.</h1><p>For product, pilot, company, and technical conversations, use the route that best matches what you need.</p></div><div className="contact-options"><a href="/demo"><ShieldCheck /><span><strong>Technical discovery</strong><small>Facility, telemetry, cooling, and pilot readiness</small></span><ArrowRight /></a><a href="mailto:hello@coolerra.com"><Mail /><span><strong>Company contact</strong><small>hello@coolerra.com</small></span><ArrowRight /></a><div><LockKeyhole /><span><strong>Location</strong><small>8936 Spring Way, Esch-sur-Alzette, ES 4015, Luxembourg · Phone: 584 191 204</small></span></div></div></main>
+      <main className="contact-page section-shell"><div className="contact-page__visual" aria-hidden="true"><img src={visuals.boundary} alt="" /></div><div className="contact-page__copy"><p className="eyebrow">Contact Coolerra</p><h1>Start with the operating question.</h1><p>For product, pilot, company, and technical conversations, use the route that best matches what you need.</p></div><div className="contact-options"><a href="/demo"><ShieldCheck /><span><strong>Technical discovery</strong><small>Facility, telemetry, cooling, and pilot readiness</small></span><ArrowRight /></a><a href="mailto:hello@coolerra.com"><Mail /><span><strong>Company contact</strong><small>hello@coolerra.com</small></span><ArrowRight /></a><div><LockKeyhole /><span><strong>Location</strong><small>Shaft Ganey, 6835 Montgomery Rd, Cincinnati, OH 45236, Ohio · Phone: 5138912415</small></span></div></div></main>
     </PageShell>
   );
 }

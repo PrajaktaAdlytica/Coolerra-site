@@ -69,5 +69,5 @@ export const solutionData = {
 export const resourceItems = [
   { type: "Method", title: "A practical thermal baseline for dense compute", detail: "How Coolerra proposes to separate room averages from local operating state." },
   { type: "Engineering note", title: "Why workload context belongs beside cooling telemetry", detail: "A framework for aligning facility response with changing compute density." },
-  { type: "Research brief", title: "EU data-center reporting and the measurement discipline ahead", detail: "A category overview grounded in European Commission guidance." },
+  { type: "Research brief", title: "Global data-center reporting and the measurement discipline ahead", detail: "A category overview grounded in international guidance." },
 ];

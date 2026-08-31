@@ -66,7 +66,7 @@ export function MonitorInterface({ compact = false }) {
           <span>Events</span>
           <span>Reports</span>
         </nav>
-        <div><small>Warsaw Lab 04</small><strong>Nominal</strong></div>
+        <div><small>Cincinnati Lab 04</small><strong>Nominal</strong></div>
       </aside>
       <div className="product-ui__main">
         <div className="ui-titlebar">
